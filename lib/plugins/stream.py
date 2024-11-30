@@ -20,7 +20,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from lib.config import USERNAME_BOT
-from lib.driver.misc import PAUSE, RESUME, VIDEO_CALL
+from lib.plugins.misc import PAUSE, RESUME, VIDEO_CALL
 from lib.helpers.filters import public_filters
 from lib.tg_stream import group_call_factory
 

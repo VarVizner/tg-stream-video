@@ -15,17 +15,21 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 from pyrogram import Client, idle
 
-from lib.config import API_HASH, API_ID, BOT_TOKEN
+from lib.config import API_HASH, API_ID, BOT_TOKEN, LOGIN, PHONE
 from lib.tg_stream import app
 
+
+plugins = dict(root='lib.plugins')
 bot = Client(
-    ":memory:",
-    API_ID,
-    API_HASH,
+    name=LOGIN,
+    api_id=API_ID,
+    api_hash=API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="lib.driver"),
+    plugins=plugins,
+    phone_number=PHONE
 )
 
 bot.start()
 app.start()
 idle()
+# bot.run()

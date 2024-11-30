@@ -7,20 +7,20 @@
         "Telegram Bot",
         "tg-stream-video"
     ],
-    "website": "https://t.me/feyystatus",
-    "repository": "https://github.com/Imszy17/tg-stream-video",
-    "success_url": "https://t.me/feyystatus",
+    "website": "https://t.me/DmitriVarVizner",
+    "repository": "https://github.com/VarVizner/tg-stream-video",
+    "success_url": "https://t.me/DmitriVarVizner",
     "env": {
         "API_ID": {
-            "description": "Your APP_ID from my.telegram.org",
+            "description": "20466028",
             "required": true
         },
         "API_HASH": {
-            "description": "Your API_HASH from my.telegram.org",
+            "description": "e01be247759cdb06773758d3c1df4df1",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Your bot token from @botfather",
+            "description": "5412569005:AAEO8vp-9y1A1qnOjtFxqg02mObi6NkWaaQ",
             "required": true
         },
         "SESSION_NAME": {
@@ -28,11 +28,11 @@
             "required": true
         },
 	"USERNAME_BOT": {
-	    "description": "Your username bot",
+	    "description": "MGLblack_bot",
 	    "required": true
 	},
         "COMMAND_PREFIXES": {
-            "description": "Custom command prefixes",
+            "description": "!",
             "required": false
         }
     },
