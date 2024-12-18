@@ -1,6 +1,5 @@
 # tg-stream-video
 
-![logo](https://telegra.ph/file/824cba85b5b820fcd7dcd.jpg)
 ## Deploy
 ```
 $ git clone https://github.com/galihmrd/tg-stream-video

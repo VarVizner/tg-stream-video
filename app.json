@@ -24,7 +24,7 @@
             "required": true
         },
         "SESSION_NAME": {
-            "description": "Pyrogram String Session",
+            "description": "AgE4SWwAJOlcbO7kpoqftmtcTeJ-HutpexMFeUw7Y0Qo2yupJJn6DSJgsTn45B3msUnmnhiC_C6aOPELIb4w0h-AEXSFTNH34aEkaeCjqStxj6ecz5EHejIvtGmfbm3ghNcFQ_KbBup-j_CptxWCZhEKvBPsypCdKnY1OnFeLWjLkbBtEjleXFQeVAnNZkERQB8s_3Or0ojV4ypB539xyYDyqCQpcUCHOsH8Cc04dYY4YAs5baHXD4l3B5qoKkstvHjZJUPI1VE9v8TYvYiFfHJFo6E3uhOfvXrF7ZB_wdAK3vEKFhZevhiZ8QHqy971bVrbw8o4GPXzQEtxRpm8t1WzhMOzsAAAAAB0BUBwAA",
             "required": true
         },
 	"USERNAME_BOT": {

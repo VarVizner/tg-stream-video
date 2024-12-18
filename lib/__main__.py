@@ -15,7 +15,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 from pyrogram import Client, idle
 
-from lib.config import API_HASH, API_ID, BOT_TOKEN, LOGIN, PHONE
+from lib.config import API_HASH, API_ID, BOT_TOKEN, LOGIN, PHONE, SESSION_NAME
 from lib.tg_stream import app
 
 
@@ -25,11 +25,9 @@ bot = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=plugins,
-    phone_number=PHONE
+    plugins=plugins
 )
 
 bot.start()
 app.start()
 idle()
-# bot.run()
